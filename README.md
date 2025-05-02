@@ -11,10 +11,6 @@ O principal objetivo deste projeto é analisar as necessidades clínicas do hosp
 ---
 ## ⚡ Parte 1
 
-## 📋 Levantamento de Requisitos
-
-Com base na descrição fornecida, extraíram-se os seguintes requisitos para a modelagem do banco de dados:
-
 ### 👩‍⚕️ Médicos
 
 - Tipos: generalistas, especialistas ou residentes.
