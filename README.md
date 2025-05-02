@@ -58,5 +58,7 @@ Com base na descrição fornecida, extraíram-se os seguintes requisitos para a 
   - Quantidade
   - Instruções de uso
 
+![Diagrama ER](derHospitalParte1.png)
+
 ---
 
