@@ -92,8 +92,15 @@ O modelo abaixo ilustra visualmente a estrutura lógica proposta para atender ao
 
 ![Modelo DER - Internações Hospitalares](derHospitalParte2.png)
 
----
+### Modelagem Conceitual (MER)
 
+Além da estrutura física do banco, foi desenvolvida também a modelagem conceitual por meio de um **Modelo Entidade-Relacionamento (MER)**. Esse modelo permitiu visualizar de forma abstrata os elementos principais do sistema (entidades, atributos e relacionamentos) e serviu de base para a criação do DER e, posteriormente, das tabelas no banco de dados.
+
+O MER foi desenvolvido com foco em representar fielmente os processos de consulta, internação, cadastro de pacientes, médicos, convênios e demais elementos envolvidos na rotina hospitalar.
+
+![Modelo MER](merHospital.png)
+
+---
 
 ## Estrutura do Banco de Dados
 
