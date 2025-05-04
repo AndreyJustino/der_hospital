@@ -23,8 +23,6 @@ A primeira demanda do hospital está focada em **controlar as consultas realizad
   - Gastroenterologia;
   - Dermatologia.
 
-> Observação: alguns registros antigos ainda estão em formulários de papel, mas precisarão ser inseridos no novo sistema.
-
 - **Pacientes** também devem ser cadastrados com os seguintes dados:
   - Nome;
   - Data de nascimento;
