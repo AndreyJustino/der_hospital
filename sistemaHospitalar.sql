@@ -102,3 +102,11 @@ CREATE TABLE tbl_receita (
     FOREIGN KEY (fk_paciente) REFERENCES tbl_paciente(id_paciente),
     FOREIGN KEY (fk_consulta) REFERENCES tbl_consulta(id_consulta)
 );
+
+ALTER TABLE tbl_medico ADD em_atividade VARCHAR(100) NOT NULL;
+
+INSERT INTO tbl_medico (nome, data_nascimento, crm, cpf, especialidade, posicao, em_atividade)
+VALUES("Adriana", "1980-10-10", "670.795.044.380", "72664635050", "Clínica Geral", "Generalistas", "Inativo"),
+	  ("Andrey", "2005-5-10", "620.743.779.071", "61437236057", "Clínica Geral", "Residentes", "Inativo"),
+      ("Livia", "2006-5-15", "121.153.075.424", "73304617094", "Pediatria", "Especialista", "Ativo"),
+      ("Gabriel", "1997-2-2", "832.573.918.060", "75205385081", "Dermatologia", "Especialista", "Ativo");
